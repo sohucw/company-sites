@@ -1,0 +1,7 @@
+.DS_Store
+*.DS_Store
+*.idea
+.idea
+node_modules
+wiki-server
+bower_components

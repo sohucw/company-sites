@@ -1,0 +1,1 @@
+define(["text!app/module2/tpl.html"],function(n){var t=function(o){appView.html(_.template(n,{name:o?o:"vivi"})),$("button").on("click",function(){}),t.onRouteChange=function(){console.log("change"),$("button").off("click")}};return t});
