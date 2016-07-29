@@ -24,7 +24,7 @@ define([
 
     };
     var controller = function (options) {
-        console.log(options +' tttt');
+        // console.log(options +' tttt');
         app.headView.html(_.template(header, {name: 'head'}));
         app.navView.html(_.template(nav, {name: 'head'}));
         app.mainView.html(template(data));

@@ -5,3 +5,8 @@
 node_modules
 wiki-server
 bower_components
+admin
+dist
+public
+router-cfg-version.js
+router_copy.js

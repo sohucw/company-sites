@@ -54,9 +54,14 @@ gulp.task('watch', function () {
 });
 
 
-
-
-
 // The default task (called when you run `gulp` from cli)
 
-gulp.task('default', ['connect', 'less', 'compress' ,'watch']);
+gulp.task('default', ['connect', 'less' ,'watch']);
+
+
+/*
+ * 2016.2.24
+ * 针对angular 项目工程的 gulp的配置
+ */
+
+

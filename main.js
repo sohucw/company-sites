@@ -1,9 +1,5 @@
-
 'use strict';
-
 (function (win) {
-    //配置baseUrl
-
     /*
      * 文件依赖
      */
@@ -13,12 +9,12 @@
             director: 'libs/director',
             handlebars: 'bower_components/handlebars/handlebars.amd',
             jquery: 'bower_components/jquery/dist/jquery',
-            'backbone-route': 'libs/backbone-route',
+           /* 'backbone-route': 'libs/backbone-route',*/
             underscore: 'bower_components/underscore/underscore',
             'bootstrap': 'bower_components/bootstrap/dist/js/bootstrap.min',
-            angular: 'bower_components/angular/angular',
+       /*     angular: 'bower_components/angular/angular',
             'angular-route': 'libs/angular-route',
-            'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router',
+            'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router',*/
             text: 'bower_components/text/text'
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。
@@ -70,8 +66,6 @@
             });
         }
         backToTop();
-
-
     });
 
 
